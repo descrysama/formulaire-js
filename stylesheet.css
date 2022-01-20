@@ -1,0 +1,59 @@
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    text-align: center;
+}
+
+form #carbrand{
+    display: flex;
+    flex-direction: column;
+}
+
+form #mainform{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+form #mainform input{
+    margin: 10px;
+}
+
+button {
+    margin: 10px;
+}
+
+#carornot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.carbrand {
+    display: none;
+}
+
+#errorname {
+    color: red;
+    margin: 0;
+}
+
+#errornickname {
+    color: red;
+    margin: 0;
+}
+
+#erroradress {
+    color: red;
+    margin: 0;
+}
+
+#errorpostalcode {
+    color: red;
+    margin: 0;
+}
